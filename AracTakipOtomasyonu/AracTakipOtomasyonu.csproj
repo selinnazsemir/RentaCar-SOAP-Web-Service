@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30B1710B-E9D9-4DEF-AAFD-F728E49F65F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AracTakipOtomasyonu</RootNamespace>
+    <AssemblyName>AracTakipOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AracEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AracEkle.Designer.cs">
+      <DependentUpon>AracEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AracKiralamaSozlesmesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AracKiralamaSozlesmesi.Designer.cs">
+      <DependentUpon>AracKiralamaSozlesmesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AracOzellikGor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AracOzellikGor.Designer.cs">
+      <DependentUpon>AracOzellikGor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Calisan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Calisan.Designer.cs">
+      <DependentUpon>Calisan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CalisanAracKiralama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CalisanAracKiralama.Designer.cs">
+      <DependentUpon>CalisanAracKiralama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CalisanEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CalisanEkle.Designer.cs">
+      <DependentUpon>CalisanEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CalisanMusteriGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CalisanMusteriGüncelle.Designer.cs">
+      <DependentUpon>CalisanMusteriGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MusteriEkle.Designer.cs">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracEkle.Designer.cs">
+      <DependentUpon>YoneticiAracEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracKiralama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracKiralama.Designer.cs">
+      <DependentUpon>YoneticiAracKiralama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracKiralayanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracKiralayanlar.Designer.cs">
+      <DependentUpon>YoneticiAracKiralayanlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiAracListesi.Designer.cs">
+      <DependentUpon>YoneticiAracListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiCalisanGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiCalisanGuncelle.Designer.cs">
+      <DependentUpon>YoneticiCalisanGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiCalisanListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiCalisanListele.Designer.cs">
+      <DependentUpon>YoneticiCalisanListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoneticiKiradaOlanAraclar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiKiradaOlanAraclar.Designer.cs">
+      <DependentUpon>YoneticiKiradaOlanAraclar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\VeriEkleServis\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Yonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Yonetici.Designer.cs">
+      <DependentUpon>Yonetici.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AracEkle.resx">
+      <DependentUpon>AracEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AracKiralamaSozlesmesi.resx">
+      <DependentUpon>AracKiralamaSozlesmesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AracOzellikGor.resx">
+      <DependentUpon>AracOzellikGor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Calisan.resx">
+      <DependentUpon>Calisan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CalisanAracKiralama.resx">
+      <DependentUpon>CalisanAracKiralama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CalisanEkle.resx">
+      <DependentUpon>CalisanEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CalisanMusteriGüncelle.resx">
+      <DependentUpon>CalisanMusteriGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiAracEkle.resx">
+      <DependentUpon>YoneticiAracEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiAracKiralama.resx">
+      <DependentUpon>YoneticiAracKiralama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiAracKiralayanlar.resx">
+      <DependentUpon>YoneticiAracKiralayanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiAracListesi.resx">
+      <DependentUpon>YoneticiAracListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiCalisanGuncelle.resx">
+      <DependentUpon>YoneticiCalisanGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiCalisanListele.resx">
+      <DependentUpon>YoneticiCalisanListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiKiradaOlanAraclar.resx">
+      <DependentUpon>YoneticiKiradaOlanAraclar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Yonetici.resx">
+      <DependentUpon>Yonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\VeriEkleServis\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\VeriEkleServis\VeriEkle.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{8c88b04e-cc07-41e0-93c5-79707705c5b9}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{E0C70E04-B5E4-4CCE-B10F-3E0F2465A2B2}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelperLayer\HelperLayer.csproj">
+      <Project>{D0521740-4372-4920-AA98-1DDF215D25AD}</Project>
+      <Name>HelperLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectLayer\ObjectLayer.csproj">
+      <Project>{D5F8E8AA-4564-49A3-8798-D93C116659CB}</Project>
+      <Name>ObjectLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:60745/VeriEkle.asmx%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\VeriEkleServis\</RelPath>
+      <UpdateFromURL>http://localhost:60745/VeriEkle.asmx%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AracTakipOtomasyonu_VeriEkleServis_VeriEkle</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

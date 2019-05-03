@@ -1,0 +1,11 @@
+C:\Users\MONSTER\source\repos\AracTakipOtomasyonu\HelperLayer\bin\Debug\HelperLayer.dll
+C:\Users\MONSTER\source\repos\AracTakipOtomasyonu\HelperLayer\bin\Debug\HelperLayer.pdb
+C:\Users\MONSTER\source\repos\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.dll
+C:\Users\MONSTER\source\repos\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.pdb
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\bin\Debug\HelperLayer.dll
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\bin\Debug\HelperLayer.pdb
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.csprojAssemblyReference.cache
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.dll
+C:\Users\MONSTER\Desktop\AracTakipOtomasyonu\HelperLayer\obj\Debug\HelperLayer.pdb
